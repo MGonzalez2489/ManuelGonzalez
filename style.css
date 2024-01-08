@@ -1,0 +1,33 @@
+:root {
+  /*--night-background-color: #3a4d71;*/
+
+  /*--primary-100: #6c35de;*/
+  /*--primary-200: #a364ff;*/
+  /*--primary-300: #ffc7ff;*/
+  /*--accent-100: #cb80ff;*/
+  /*--accent-200: #373737;*/
+  /*--text-100: #ffffff;*/
+  /*--text-200: #e0e0e0;*/
+  /*--bg-100: #241b35;*/
+  /*--bg-200: #342a45;*/
+  /*--bg-300: #4d425f;*/
+
+  --primary-100: #80d2f9;
+  --text-100: #faffff;
+  --text-200: #7e879b;
+  --bg-100: #0e182b;
+  --bg-200: #2d2d2d;
+  --bg-300: #454545;
+}
+
+body {
+  background-color: var(--bg-100);
+  color: var(--text-200);
+}
+
+.section {
+  padding: 15px;
+}
+
+.hero {
+}

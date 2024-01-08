@@ -1,0 +1,91 @@
+{
+  "general": {
+    "name": "Manuel Alfredo",
+    "lastName": "Gonzalez Hernandez",
+    "birthday": "24/09/1989",
+    "email": "manuel_agh@hotmail.com",
+    "description": "aqui va la descripcion para el hero",
+    "photo": "photo URL"
+  },
+  "education": [
+    {
+      "title": "Tecnico en Informatica, CBTa #147",
+      "startDate:": "2004",
+      "endDate": "2007",
+      "description": "The technical world, hardware, and computer fundamentals as principles of networks and programming were my first approach to being a software developer."
+    },
+    {
+      "title": "Ingeniero en Sistemas Computacionales, Instituto Tecnológico de Delicias",
+      "startDate:": "2007",
+      "endDate": "2012",
+      "description": "With more advanced subjects in software development, methodologies, and server learning, being a software developer would be my career."
+    }
+  ],
+  "experience": [
+    {
+      "Company": "Servicios de Programacion de Chihuahua",
+      "Title": ".NET Developer",
+      "startDate": "Mar 2013",
+      "endDate": "Dic 2016",
+      "shortDescription": "Improve and maintenance of legacy applications using .NET, always orientated to create and support custom solutions"
+    },
+    {
+      "Company": "Gamma Partners",
+      "Title": "Angular & .NET Developer",
+      "startDate": "Jan 2017",
+      "endDate": "May 2019",
+      "shortDescription": "Improve and maintenance of legacy applications using .NET and Angular, always orientated to create and support custom solutions"
+    },
+    {
+      "Company": "Pk Global",
+      "Title": "Lead Software Engineer",
+      "startDate": "May 2019",
+      "endDate": "Jul 2021",
+      "shortDescription": "Designed, supported, and improved a multi-user application hosted in Azure Cloud using Angular, NodeJs + SailsJs, and PostgreSQL."
+    },
+    {
+      "Company": "Unosquare",
+      "Title": "Lead Software Engineer",
+      "startDate": "May 2019",
+      "endDate": null,
+      "shortDescription": "Designed, supported, and improved a multi-user application hosted in Azure Cloud using Angular, NodeJs + SailsJs, and PostgreSQL."
+    }
+  ],
+  "SinTituloParaLaTech": [
+    {
+      "name": "Angular",
+      "icon": "aqui",
+      "group": "Front-End"
+    },
+    {
+      "name": "C# .NET",
+      "icon": "aqui",
+      "group": "Back-End"
+    },
+    {
+      "name": "SQL Server",
+      "icon": "aqui",
+      "group": "Database"
+    },
+    {
+      "name": "MySql",
+      "icon": "aqui",
+      "group": "Database"
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "aqui",
+      "group": "Database"
+    },
+    {
+      "name": "SailsJs",
+      "icon": "aqui",
+      "group": "Back-End"
+    },
+    {
+      "name": "Azure",
+      "icon": "aqui",
+      "group": "DevOps"
+    }
+  ]
+}
