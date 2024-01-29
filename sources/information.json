@@ -1,11 +1,12 @@
 {
   "general": {
-    "name": "Manuel Alfredo",
+    "firstName": "Manuel Alfredo",
     "lastName": "Gonzalez Hernandez",
     "birthday": "24/09/1989",
     "email": "manuel_agh@hotmail.com",
     "description": "aqui va la descripcion para el hero",
-    "photo": "photo URL"
+    "photo": "photo URL",
+    "professionalTitle": "Software Engineer"
   },
   "education": [
     {
@@ -51,7 +52,7 @@
       "shortDescription": "Designed, supported, and improved a multi-user application hosted in Azure Cloud using Angular, NodeJs + SailsJs, and PostgreSQL."
     }
   ],
-  "SinTituloParaLaTech": [
+  "skills": [
     {
       "name": "Angular",
       "icon": "aqui",
@@ -87,5 +88,8 @@
       "icon": "aqui",
       "group": "DevOps"
     }
-  ]
+  ],
+  "options": {
+    "language": ["mx", "en"]
+  }
 }
