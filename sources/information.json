@@ -92,6 +92,9 @@
     }
   ],
   "options": {
-    "language": ["mx", "en"]
+    "language": [
+      { "value": "mx", "icon": "" },
+      { "value": "en", "icon": "" }
+    ]
   }
 }
