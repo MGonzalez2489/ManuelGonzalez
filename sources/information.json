@@ -24,29 +24,29 @@
   ],
   "experience": [
     {
-      "Company": "Servicios de Programacion de Chihuahua",
-      "Title": ".NET Developer",
+      "company": "Servicios de Programacion de Chihuahua",
+      "title": ".NET Developer",
       "startDate": "Mar 2013",
       "endDate": "Dic 2016",
       "shortDescription": "Improve and maintenance of legacy applications using .NET, always orientated to create and support custom solutions"
     },
     {
-      "Company": "Gamma Partners",
-      "Title": "Angular & .NET Developer",
+      "company": "Gamma Partners",
+      "title": "Angular & .NET Developer",
       "startDate": "Jan 2017",
       "endDate": "May 2019",
       "shortDescription": "Improve and maintenance of legacy applications using .NET and Angular, always orientated to create and support custom solutions"
     },
     {
-      "Company": "Pk Global",
-      "Title": "Lead Software Engineer",
+      "company": "Pk Global",
+      "title": "Lead Software Engineer",
       "startDate": "May 2019",
       "endDate": "Jul 2021",
       "shortDescription": "Designed, supported, and improved a multi-user application hosted in Azure Cloud using Angular, NodeJs + SailsJs, and PostgreSQL."
     },
     {
-      "Company": "Unosquare",
-      "Title": "Lead Software Engineer",
+      "company": "Unosquare",
+      "title": "Lead Software Engineer",
       "startDate": "May 2019",
       "endDate": null,
       "shortDescription": "Designed, supported, and improved a multi-user application hosted in Azure Cloud using Angular, NodeJs + SailsJs, and PostgreSQL."
