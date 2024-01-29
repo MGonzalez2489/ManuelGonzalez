@@ -11,12 +11,14 @@
   "education": [
     {
       "title": "Tecnico en Informatica, CBTa #147",
+      "school": "CBTa #147",
       "startDate:": "2004",
       "endDate": "2007",
       "description": "The technical world, hardware, and computer fundamentals as principles of networks and programming were my first approach to being a software developer."
     },
     {
       "title": "Ingeniero en Sistemas Computacionales, Instituto Tecnológico de Delicias",
+      "school": "Instituto Tecnológico de Delicias",
       "startDate:": "2007",
       "endDate": "2012",
       "description": "With more advanced subjects in software development, methodologies, and server learning, being a software developer would be my career."
