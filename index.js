@@ -1,22 +1,26 @@
 init();
-
 async function init() {
-  const data = await loadData();
-  console.log("data", data);
+  let language = window.navigator.userLanguage || window.navigator.language;
+  language = language.toString().toLowerCase();
+
+  const data = await loadData(language);
+  console.log(`data | ${language}`, data);
+
   heroData(data.general);
   personalDetailsData(data.general);
   loadProfessionalExperience(data.experience);
   loadSkills(data.skills);
   loadEducation(data.education);
-  loadOptions(data.options);
+  loadOptions(data.options, language);
 }
 
 /// Load Data
-async function loadData() {
+async function loadData(language) {
   const dataUrl =
-    "https://raw.githubusercontent.com/MGonzalez2489/ManuelGonzalez/main/sources/information.json";
+    "https://raw.githubusercontent.com/MGonzalez2489/ManuelGonzalez/main/sources/";
+  const fileName = "data";
 
-  let data = await fetch(dataUrl);
+  let data = await fetch(`${dataUrl}${fileName}.${language}.json`);
   data = data.json();
 
   return data;
@@ -141,16 +145,19 @@ function loadEducation(data) {
   });
 }
 
-function loadOptions(data) {
+function loadOptions(data, defaultValue) {
   //Language Options
   const select = document.getElementById("languageOptions");
 
   data.language.forEach((l) => {
     const item = document.createElement("option");
     item.value = l.value;
-    item.text = l.value;
+    item.text = l.name;
+    item.selected = l.value == defaultValue;
     select.appendChild(item);
   });
+
+  select.value = defaultValue;
 }
 
 //helpers

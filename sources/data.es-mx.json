@@ -1,0 +1,100 @@
+{
+  "general": {
+    "firstName": "Manuel Alfredo",
+    "lastName": "Gonzalez Hernandez",
+    "birthdate": "1989-09-24",
+    "email": "manuel_agh@hotmail.com",
+    "description": "Ingeniero de software quien disfruta programar y crear cosas para ayudar a las personas en su vida cotidiana",
+    "photo": "https://avatars.githubusercontent.com/u/16084705?s=400&v=4",
+    "professionalTitle": "Software Engineer"
+  },
+  "education": [
+    {
+      "title": "Tecnico en Informatica, CBTa #147",
+      "school": "CBTa #147",
+      "startDate": "2004",
+      "endDate": "2007",
+      "description": "The technical world, hardware, and computer fundamentals as principles of networks and programming were my first approach to being a software developer."
+    },
+    {
+      "title": "Ingeniero en Sistemas Computacionales, Instituto Tecnológico de Delicias",
+      "school": "Instituto Tecnológico de Delicias",
+      "startDate": "2007",
+      "endDate": "2012",
+      "description": "With more advanced subjects in software development, methodologies, and server learning, being a software developer would be my career."
+    }
+  ],
+  "experience": [
+    {
+      "company": "Servicios de Programacion de Chihuahua",
+      "title": ".NET Developer",
+      "startDate": "Mar 2013",
+      "endDate": "Dic 2016",
+      "shortDescription": "Improve and maintenance of legacy applications using .NET, always orientated to create and support custom solutions"
+    },
+    {
+      "company": "Gamma Partners",
+      "title": "Angular & .NET Developer",
+      "startDate": "Jan 2017",
+      "endDate": "May 2019",
+      "shortDescription": "Improve and maintenance of legacy applications using .NET and Angular, always orientated to create and support custom solutions"
+    },
+    {
+      "company": "Pk Global",
+      "title": "Lead Software Engineer",
+      "startDate": "May 2019",
+      "endDate": "Jul 2021",
+      "shortDescription": "Designed, supported, and improved a multi-user application hosted in Azure Cloud using Angular, NodeJs + SailsJs, and PostgreSQL."
+    },
+    {
+      "company": "Unosquare",
+      "title": "Lead Software Engineer",
+      "startDate": "May 2019",
+      "endDate": null,
+      "shortDescription": "Designed, supported, and improved a multi-user application hosted in Azure Cloud using Angular, NodeJs + SailsJs, and PostgreSQL."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Angular",
+      "icon": "https://raw.githubusercontent.com/MGonzalez2489/ManuelGonzalez/sources/assets/angular-icon.svg",
+      "group": "Front-End"
+    },
+    {
+      "name": "C# .NET",
+      "icon": "https://raw.githubusercontent.com/MGonzalez2489/ManuelGonzalez/sources/assets/c%23-icon.svg",
+      "group": "Back-End"
+    },
+    {
+      "name": "SQL Server",
+      "icon": "https://raw.githubusercontent.com/MGonzalez2489/ManuelGonzalez/sources/assets/sql-icon.svg",
+      "group": "Database"
+    },
+    {
+      "name": "MySql",
+      "icon": "https://raw.githubusercontent.com/MGonzalez2489/ManuelGonzalez/sources/assets/mysql-icon.svg",
+      "group": "Database"
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "https://raw.githubusercontent.com/MGonzalez2489/ManuelGonzalez/sources/assets/postgreSQL-icon.svg",
+      "group": "Database"
+    },
+    {
+      "name": "SailsJs",
+      "icon": "https://raw.githubusercontent.com/MGonzalez2489/ManuelGonzalez/sources/assets/sails-seeklogo.svg",
+      "group": "Back-End"
+    },
+    {
+      "name": "Azure",
+      "icon": "https://raw.githubusercontent.com/MGonzalez2489/ManuelGonzalez/sources/assets/azure-icon.svg",
+      "group": "DevOps"
+    }
+  ],
+  "options": {
+    "language": [
+      { "name": "mx", "value": "es-mx", "icon": "" },
+      { "name": "en", "value": "en-us", "icon": "" }
+    ]
+  }
+}
