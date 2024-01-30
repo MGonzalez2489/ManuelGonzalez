@@ -93,8 +93,8 @@
   ],
   "options": {
     "language": [
-      { "value": "mx", "icon": "" },
-      { "value": "en", "icon": "" }
+      { "name": "mx", "value": "es-mx", "icon": "" },
+      { "name": "en", "value": "en-us", "icon": "" }
     ]
   }
 }
