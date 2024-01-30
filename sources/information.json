@@ -57,37 +57,37 @@
   "skills": [
     {
       "name": "Angular",
-      "icon": "aqui",
+      "icon": "https://raw.githubusercontent.com/MGonzalez2489/ManuelGonzalez/sources/assets/angular-icon.svg",
       "group": "Front-End"
     },
     {
       "name": "C# .NET",
-      "icon": "aqui",
+      "icon": "https://raw.githubusercontent.com/MGonzalez2489/ManuelGonzalez/sources/assets/c%23-icon.svg",
       "group": "Back-End"
     },
     {
       "name": "SQL Server",
-      "icon": "aqui",
+      "icon": "https://raw.githubusercontent.com/MGonzalez2489/ManuelGonzalez/sources/assets/sql-icon.svg",
       "group": "Database"
     },
     {
       "name": "MySql",
-      "icon": "aqui",
+      "icon": "https://raw.githubusercontent.com/MGonzalez2489/ManuelGonzalez/sources/assets/mysql-icon.svg",
       "group": "Database"
     },
     {
       "name": "PostgreSQL",
-      "icon": "aqui",
+      "icon": "https://raw.githubusercontent.com/MGonzalez2489/ManuelGonzalez/sources/assets/postgreSQL-icon.svg",
       "group": "Database"
     },
     {
       "name": "SailsJs",
-      "icon": "aqui",
+      "icon": "https://raw.githubusercontent.com/MGonzalez2489/ManuelGonzalez/sources/assets/sails-seeklogo.svg",
       "group": "Back-End"
     },
     {
       "name": "Azure",
-      "icon": "aqui",
+      "icon": "https://raw.githubusercontent.com/MGonzalez2489/ManuelGonzalez/sources/assets/azure-icon.svg",
       "group": "DevOps"
     }
   ],
