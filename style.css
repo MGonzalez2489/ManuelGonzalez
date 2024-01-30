@@ -26,6 +26,7 @@ nav > ul > a {
 section {
   background-color: yellowgreen;
   padding: 15px;
+  display: none;
 }
 .sectionB {
   background-color: aqua;
