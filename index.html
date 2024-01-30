@@ -7,16 +7,81 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section class="section hero">
-      <h1>Hero</h1>
-      <p>Aqui va algo de la informacion general</p>
-      <ul>
-        <li>Nombre y Appelido</li>
-        <li>Email</li>
-        <li>Foto</li>
-      </ul>
+    <!--Header-->
+    <header>
+      <nav>
+        <ul>
+          <a href="#">Hero</a>
+          <a href="#">Personal</a>
+          <a href="#">Professional</a>
+          <a href="#">Education</a>
+          <a href="#">About</a>
+          <li>
+            <select id="languageOptions">
+
+            </select>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--End Header-->
+    <!--Hero-->
+    <section class="hero">
+      <img id="avatar" src="" alt="avatar" />
+      <h1 id="name"></h1>
+      <h2 id="profTitle"></h2>
+      <p id="heroDesc"></p>
+      <button>See More</button>
     </section>
-    <section class="section"></section>
+    <!--End Hero-->
+    <!--Personal Details-->
+    <section class="personalDetails sectionB">
+      <p id="firstName"></p>
+      <p id="lastName"></p>
+      <p id="age"></p>
+      <p id="email"></p>
+    </section>
+    <!--End Personal Details-->
+    <!--Professional Details-->
+    <section class="professionalExperience">
+      <article>
+        <h3>Company Name</h3>
+        <h4>Title and possion</h4>
+        <p>Dates</p>
+        <p>Description</p>
+      </article>
+      <article>
+        <h3>Company Name</h3>
+        <h4>Title and possion</h4>
+        <p>Dates</p>
+        <p>Description</p>
+      </article>
+    </section>
+    <!--End Professional Details-->
+    <!--Skills-->
+    <section class="skills sectionB">
+      <article>
+        <h3>Skill name</h3>
+        <img src="" alt="Icon" />
+        <span>Group</span>
+      </article>
+      <article>
+        <h3>Skill name</h3>
+        <img src="" alt="Icon" />
+        <span>Group</span>
+      </article>
+    </section>
+    <!--End of Skills-->
+    <!--Education-->
+    <section class="education">
+      <article>
+        <h3>Title</h3>
+        <h4>School</h4>
+        <span>Date</span>
+        <p>Description</p>
+      </article>
+    </section>
+    <!--End Education-->
     <script src="index.js"></script>
   </body>
 </html>
