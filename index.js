@@ -2,7 +2,11 @@ init();
 async function init() {
   let language = window.navigator.userLanguage || window.navigator.language;
   language = language.toString().toLowerCase();
+  await initData(language);
+}
 
+/// Load Data
+async function initData(language) {
   const data = await loadData(language);
   console.log(`data | ${language}`, data);
 
@@ -13,8 +17,6 @@ async function init() {
   loadEducation(data.education);
   loadOptions(data.options, language);
 }
-
-/// Load Data
 async function loadData(language) {
   const dataUrl =
     "https://raw.githubusercontent.com/MGonzalez2489/ManuelGonzalez/main/sources/";
@@ -157,7 +159,9 @@ function loadOptions(data, defaultValue) {
     select.appendChild(item);
   });
 
-  select.value = defaultValue;
+  select.addEventListener("change", function () {
+    initData(select.value.toLowerCase());
+  });
 }
 
 //helpers
